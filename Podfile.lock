@@ -1,0 +1,140 @@
+PODS:
+  - Alamofire (4.8.0)
+  - CHKLineChartKit (2.3.1)
+  - Differentiator (3.1.0)
+  - DropDown (2.3.12)
+  - EmptyPage (2.0.0):
+    - EmptyPage/Core (= 2.0.0)
+    - EmptyPage/Standard (= 2.0.0)
+  - EmptyPage/Core (2.0.0)
+  - EmptyPage/Standard (2.0.0):
+    - EmptyPage/Core
+  - IQKeyboardManagerSwift (6.2.0)
+  - Kingfisher (4.10.1)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya-ObjectMapper/Core (2.7):
+    - Moya (~> 11)
+    - ObjectMapper (~> 3.3)
+  - Moya-ObjectMapper/RxSwift (2.7):
+    - Moya-ObjectMapper/Core
+    - RxSwift (~> 4.1)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (11.0.2):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.4.1)
+  - PullToRefresher (3.1)
+  - Realm (3.12.0):
+    - Realm/Headers (= 3.12.0)
+  - Realm/Headers (3.12.0)
+  - RealmSwift (3.12.0):
+    - Realm (= 3.12.0)
+  - Result (3.2.4)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SDCAlertView (9.0.1)
+  - SnapKit (4.2.0)
+  - SwiftDate (5.0.13)
+  - SwifterSwift (4.6.0):
+    - SwifterSwift/AppKit (= 4.6.0)
+    - SwifterSwift/CoreGraphics (= 4.6.0)
+    - SwifterSwift/CoreLocation (= 4.6.0)
+    - SwifterSwift/Foundation (= 4.6.0)
+    - SwifterSwift/MapKit (= 4.6.0)
+    - SwifterSwift/SpriteKit (= 4.6.0)
+    - SwifterSwift/SwiftStdlib (= 4.6.0)
+    - SwifterSwift/UIKit (= 4.6.0)
+  - SwifterSwift/AppKit (4.6.0)
+  - SwifterSwift/CoreGraphics (4.6.0)
+  - SwifterSwift/CoreLocation (4.6.0)
+  - SwifterSwift/Foundation (4.6.0)
+  - SwifterSwift/MapKit (4.6.0)
+  - SwifterSwift/SpriteKit (4.6.0)
+  - SwifterSwift/SwiftStdlib (4.6.0)
+  - SwifterSwift/UIKit (4.6.0)
+  - Toast-Swift (4.0.1)
+
+DEPENDENCIES:
+  - CHKLineChartKit
+  - DropDown
+  - EmptyPage
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - Moya-ObjectMapper/RxSwift
+  - Moya/RxSwift
+  - ObjectMapper
+  - PullToRefresher
+  - RealmSwift
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - SDCAlertView
+  - SnapKit
+  - SwiftDate
+  - SwifterSwift
+  - Toast-Swift (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CHKLineChartKit
+    - Differentiator
+    - DropDown
+    - EmptyPage
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Moya
+    - Moya-ObjectMapper
+    - ObjectMapper
+    - PullToRefresher
+    - Realm
+    - RealmSwift
+    - Result
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SDCAlertView
+    - SnapKit
+    - SwiftDate
+    - SwifterSwift
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  CHKLineChartKit: b8c276fc768530f8fae9ae471b0451f33aa95298
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  DropDown: 0bcc278799ec11a3d34ce1aac9367fbbaf5423d9
+  EmptyPage: c6d76fcf752d38a1d1d4d3f7a4d60e724c68196a
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Moya-ObjectMapper: 441caa307b527331fde59e2577adc632a16f1255
+  ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
+  PullToRefresher: ec8c1942bd61bb512ff520c49f9f00903cfa86c7
+  Realm: cdaef23c4ddb36ab1ddffed23f5a7f3332fc5585
+  RealmSwift: 5576324033f0aa5ef1e0a839a3da2281dff47a7f
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SDCAlertView: f24c447279278dca39d41562b414276980b066d8
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftDate: f4aea5fa9dee812485f34041121a4cbde01b0dee
+  SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+
+PODFILE CHECKSUM: 722864ff9a6a886f4618e831a294b8baf785feb6
+
+COCOAPODS: 1.5.3

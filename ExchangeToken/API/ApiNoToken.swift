@@ -20,38 +20,13 @@ extension ApiNoToken : TargetType  {
         switch self {
         case .login:
             return "/user/login/loginHz"
-        case .noLoginGetCode:
-            return "/user/send/gt/ajax-validateOutIn"
-
-        case .registerMnmonic:
-            return "/user/login/registerOneNew"
-        case .registerGetMnmonic:
-            return "/user/login/getCoinList"
-        case .register:
-            return "/user/login/registerNew"
-        case .forgetGetCode:
-            return "/user/send/gt/ajax-validate"
-        case .forgetPassWord:
-            return "/user/login/findPwd"
-        case .configs:
-            return "/sys/configs"
-        case .getVersion:
-            return "/sys/version"
-        case .banners:
-            return "/sys/banners"
-        case .configForArea:
-            return "/sys/areas"
         }
     }
     
     var method: Moya.Method {
         switch self {
-        case .login ,  .noLoginGetCode ,.registerMnmonic ,.registerGetMnmonic,.register,.forgetGetCode,.forgetPassWord,.configs,.banners:
+        case .login :
             return .post
-        case .getVersion:
-            return .post
-        case .configForArea:
-            return .get
     }
     }
     var sampleData: Data {
@@ -61,15 +36,9 @@ extension ApiNoToken : TargetType  {
     
     var task: Task {
         switch self {
-        case .login(let param) , .noLoginGetCode(let param) ,.registerMnmonic(let param),.registerGetMnmonic(let param),.register(let param),.forgetGetCode(let param),.forgetPassWord(let param),.configs(let param):
+        case .login(let param) :
             return .requestData(ValidateManager.jsonToData(jsonDic: self.addLanguage(param: param))!)
             
-        case .banners:
-            return .requestData(ValidateManager.jsonToData(jsonDic: self.addLanguage(param: [:]))!)
-        case .getVersion:
-            return .requestData(ValidateManager.jsonToData(jsonDic: self.addLanguage(param: ["type":"1"]))!)
-        case .configForArea:
-            return .requestParameters(parameters: [:], encoding: URLEncoding.default)
 
     }
     }
